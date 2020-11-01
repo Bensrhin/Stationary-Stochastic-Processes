@@ -8,7 +8,7 @@ See file : **padding1.m**
 ![27](https://user-images.githubusercontent.com/64482881/97801907-45d4f100-1c40-11eb-8784-05b89f407921.png)
 
 ![28](https://user-images.githubusercontent.com/64482881/97801908-45d4f100-1c40-11eb-816d-4c07367219d9.jpeg)
-See file : **ARMA.m**
+
 
 ![29](https://user-images.githubusercontent.com/64482881/97801964-9a786c00-1c40-11eb-9981-44e0e3ab1fcf.png)
 ![30](https://user-images.githubusercontent.com/64482881/97801965-9ba99900-1c40-11eb-969f-f332b6193c01.png)
