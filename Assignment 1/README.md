@@ -1,4 +1,5 @@
 # Estimation of the expected value
+See file : **ExpectedValue_m**
 
 ### Loading data:
 ```
@@ -47,6 +48,8 @@ Hence, this new process is a white noise process, since it has the same variance
 ![5](https://user-images.githubusercontent.com/64482881/97801369-89c5f700-1c3c-11eb-9df8-0a85d920a9fb.png)
 
 # Estimation of the covariance function
+See file : **CovarianceFunction**
+
 
 ### Loading the data:
 
@@ -77,19 +80,38 @@ Hence, this new process is a white noise process, since it has the same variance
 ![11](https://user-images.githubusercontent.com/64482881/97801475-428c3600-1c3d-11eb-9f3f-b447c8b5faca.png)
 
 
+# Spectrum estimate of a sum of harmonics
+
+### Loading the function:
+
+```
+>> spekgui
+```
+
+### Does the peaks have equal heights?
+Let's see the estimated spectral densities of some realisations:
+
+![12](https://user-images.githubusercontent.com/64482881/97801543-ccd49a00-1c3d-11eb-9db1-5f5054a94c33.png)
+
+### Results
+As we can see, **The peaks are not equal**.
+
+### Explanation:
+![13](https://user-images.githubusercontent.com/64482881/97801564-fdb4cf00-1c3d-11eb-935b-f8a08b04b389.png)
+
+**So the only term that can make a difference in the peaks is the random value given by the chi-square ditribution, which explains the random values of the peaks in each realization.**
 
 
+# Keynotes and overtones
+
+### What are the frequencies of the cello and trombone keynotes ?
+The estimated spectral density of the **cello** keynotes:
+![14](https://user-images.githubusercontent.com/64482881/97801603-4c626900-1c3e-11eb-997f-914add73bd0a.png)
+The estimated spectral density of the trombone keynotes:
+![15](https://user-images.githubusercontent.com/64482881/97801604-4d939600-1c3e-11eb-8644-3ef7f1b5da38.png)
+
+![16](https://user-images.githubusercontent.com/64482881/97801631-6ac86480-1c3e-11eb-945a-9cc5342b856d.png)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+# Aliasing
+ See file **aliasing.m**
